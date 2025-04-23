@@ -7,8 +7,8 @@ Quantum Compiler for Simulating the Time-Evolution of Fermionic Hamiltonians
 - https://arxiv.org/pdf/2110.10701
 
 ## Fermion-to-Qubit Encoding
-- https://arxiv.org/pdf/2403.17794 (Fermihedral)
-- https://arxiv.org/pdf/2409.02010 (HATT)
+- https://arxiv.org/pdf/2403.17794 (Fermihedral: SAT Reduction)
+- https://arxiv.org/pdf/2409.02010 (HATT: Ternary Tree)
 
 ## Quantum Compilers for Hamiltonian Simulation
 - https://arxiv.org/pdf/2108.02099 (2QAN: Trotter Permutation)
