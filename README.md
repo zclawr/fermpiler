@@ -13,5 +13,7 @@ Quantum Compiler for Simulating the Time-Evolution of Fermionic Hamiltonians
 ## Quantum Compilers for Hamiltonian Simulation
 - https://arxiv.org/pdf/2108.02099 (2QAN: Trotter Permutation)
 - https://arxiv.org/pdf/2504.07214 (Partial Trotterization)
+
+- https://github.com/QuantumComputingLab/f3c (Repo for the following two references)
 - https://arxiv.org/abs/2108.03282
 - https://arxiv.org/abs/2108.03283
