@@ -1,6 +1,12 @@
 # fermpiler
 Quantum Compiler for Simulating the Time-Evolution of Fermionic Hamiltonians
 
+The interest here is to develop an end-to-end compiler for algorithms taking as input fermionic Hamiltonians. In particular, simulating the time evolution of a fermionic Hamiltonian will be our first algorithm of interest, as it requires no variational optimization. The high-level workflow of the compiler is as follows:
+- For some fermionic Hamiltonian input, carry out Hamiltonian reduction and optimization (Preprocessing Step)
+- Carry out fermion-to-qubit encoding (Qubit Encoding Step)
+- Trotterize the resulting Hamiltonian after qubit encoding (Trotterization Step)
+
+Each of these steps have a variety of potential optimizations, which have been explored in the literature (some referenced below). The novel approach, here, is integrating these techniques within an end-to-end compiler for fermionic Hamiltonians, which, to the best of my knowledge, has not been done.
 # Initial References
 ## Fermionic Hamiltonian Optimization
 - https://arxiv.org/pdf/1706.03637
