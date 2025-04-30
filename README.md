@@ -6,8 +6,8 @@ The interest here is to develop an end-to-end compiler for algorithms taking as 
 # High Level Compilation Flow
 The high-level workflow of the compiler is as follows:
 - Carry out fermion-to-qubit encoding (Qubit Encoding Step)
-- Trotterize the resulting Hamiltonian after qubit encoding, producing our Hamiltonian time evolution circuit (Trotterization Step)
-- Carry out any remaining optimizations on the trotterized circuit, e.g. hardware-aware optimizations (Post-processing Step)
+- Use trotterization analysis towards middle-end optimization (i.e. routing, scheduling, circuit synthesis) (Trotterization Step)
+- Carry out backend optimizations (potentially hardware-aware) e.g. gate sequencing (Post-processing Step)
 
 Each of these steps have a variety of potential optimizations, which have been explored in the literature (some referenced below).
 
